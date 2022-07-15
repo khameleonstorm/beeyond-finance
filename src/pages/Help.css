@@ -1,0 +1,45 @@
+.help{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.help div{
+width: 75%;
+}
+
+.help div img{
+width: 50%;
+}
+
+
+
+@media only screen and (max-width: 1050px){
+
+.help div{
+width: 95%;
+}
+
+}
+
+
+@media only screen and (max-width: 800px){
+
+.help div img{
+width: 70%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 650px){
+
+.help div img{
+width: 90%;
+}
+
+}

@@ -1,0 +1,62 @@
+.transaction-history{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr;
+gap: 10px;
+margin-bottom: 50px;
+}
+
+.transaction-history .wrapper{
+min-width: 90%;
+background: #171717;
+position: relative;
+padding: 15px 20px 15px 10px;
+border-radius: 5px;
+overflow: hidden;
+}
+
+.transaction-history .wrapper .content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.transaction-history .wrapper .content p{
+font-family: 'poppins';
+font-size: 1rem;
+color: #039c97;
+font-weight: 700;
+}
+
+.transaction-history .wrapper .content p.title{
+font-family: 'poppins';
+font-size: .95rem;
+font-weight: 600;
+color: rgba(245, 245, 245, 0.845);
+}
+
+.transaction-history .wrapper p{
+font-size: 0.8rem;
+color: rgba(255, 255, 255, 0.4);
+padding-top: 10px;
+}
+
+.transaction-history .wrapper .icon{
+position: absolute;
+font-family: cursive;
+font-size: 1.1rem;
+margin-top: -5px;
+padding-right: 5px;
+top: 0;
+right: 0;
+opacity: 60%;
+}
+
+.transaction-history .wrapper .icon:hover{
+cursor: pointer;
+opacity: 100%;
+}
+
+@media only screen and (max-width: 900px){
+
+}

@@ -1,0 +1,166 @@
+.dashboard{
+width: 100%;
+display: flex;
+}
+
+.dashboard .side{
+width: 15%;
+position: relative;
+}
+
+.dashboard .side h2{
+position: absolute;
+top: 0;
+right: 0;
+font-family: cursive;
+opacity: 70%;
+padding: 20px;
+display: none;
+}
+
+.dashboard .side h2:hover{
+opacity: 100%;
+color: tomato;
+cursor: pointer;
+}
+
+.dashboard .main{
+width: 85%;
+}
+
+.dashboard .main .main-wrapper{
+width: 90%;
+margin: 0px auto;
+}
+
+.dashboard .main nav{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-family: 'Reggae One', cursive;
+padding: 20px 0px;
+}
+
+.dashboard .main nav .hamburger{
+display: none;
+}
+
+.dashboard .main nav img{
+width: 80px;
+}
+
+.dashboard section{
+width: 100%;
+}
+
+
+
+@media only screen and (max-width: 900px){
+
+.dashboard .side{
+width: 25%;
+}
+
+.dashboard .main{
+width: 75%;
+}
+
+}
+
+
+
+@media only screen and (max-width: 700px){
+
+.dashboard .side{
+width: 30%;
+}
+
+.dashboard .main{
+width: 70%;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+
+.dashboard .side{
+width: 35%;
+}
+
+.dashboard .main{
+width: 65%;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+
+.dashboard .side{
+width: 80%;
+position: fixed;
+top: 0;
+left: -100%;
+z-index: 1000;
+transition: all .75s ease-in-out;
+}
+
+.dashboard .side.open{
+left: 0%;
+}
+
+.dashboard .side.close{
+left: -100%;
+}
+
+.dashboard .main{
+width: 100%;
+position: relative;
+}
+
+.dashboard .main nav {
+padding-top: 0px;
+padding-left: 50px;
+}
+
+
+.dashboard .main nav .hamburger{
+width: 50px;
+height: 50px;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+background: #171717;
+position: absolute;
+top: 0;
+left: 0;
+padding-left: 10px;
+}
+
+.dashboard .main nav .hamburger span{
+width: 30px;
+height: 4px;
+border-radius: 10px;
+margin: 2px 0;
+}
+
+.dashboard .main nav .hamburger span:nth-child(1){
+background: #FF007F;
+}
+
+.dashboard .main nav .hamburger span:nth-child(2){
+background: #768BFF;
+width: 23px;
+}
+
+.dashboard .main nav .hamburger span:nth-child(3){
+background: #52C4C0;
+width: 15px;
+}
+
+.dashboard .side h2{
+display: block;
+}
+
+}

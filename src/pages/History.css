@@ -1,0 +1,29 @@
+
+.dashboard .main .main-wrapper .history{
+width: 50%;
+padding-top: 10px;
+}
+
+@media only screen and (max-width: 900px){
+
+.dashboard .main .main-wrapper .history{
+width: 70%;
+}
+
+}
+
+@media only screen and (max-width: 700px){
+
+.dashboard .main .main-wrapper .history{
+width: 80%;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+
+.dashboard .main .main-wrapper .history{
+width: 100%;
+}
+
+}

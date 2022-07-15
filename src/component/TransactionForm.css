@@ -1,0 +1,96 @@
+.ts-form{
+width: 30%;
+padding: 30px 15px;
+background: #171717;
+border-radius: 30px;
+margin-bottom: 20px;
+}
+
+.ts-form form{
+width: 100%;
+text-align: center;
+}
+
+.ts-form form h2{
+font-family: 'poppins';
+padding-bottom: 15px;
+font-size: 1.1rem;
+}
+
+.ts-form form input{
+width: 100%;
+background: transparent;
+border-radius: 50px;
+border: 1px solid rgba(158, 158, 158, 0.2);
+font-size: .9rem;
+color: rgb(255, 255, 255);
+padding: 9px 15px;
+outline: none;
+}
+
+.ts-form form div{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 15px;
+}
+
+.ts-form form div input{
+width: 60%;
+}
+
+.ts-form form div .button{
+width: 30%;
+background: #007b68;
+padding: 8px;
+font-family: 'poppins';
+border-radius: 50px;
+border: none;
+font-size: 0.9rem;
+}
+
+.ts-form form div .button:hover{
+background: #00ffcc84;
+cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px){
+
+.ts-form{
+width: 45%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 900px){
+
+.ts-form{
+width: 45%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 750px){
+
+.ts-form{
+width: 75%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+.ts-form{
+width: 100%;
+}
+
+
+}

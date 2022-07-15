@@ -1,0 +1,258 @@
+.home{
+width: 100%;
+height: 100vh;
+background: transparent;
+background-image: url(../../public/img/backgroung-circles.svg);
+background-size: 23%;
+background-repeat: no-repeat;
+background-position: center;
+background-position-x: 30%;
+background-position-y: 50%;
+}
+
+.bg-blur{
+width: 90%;
+min-height: 100vh;
+margin: 0px auto;
+border-radius: 100px;
+border: 1px solid rgba(229, 233, 254, 0.02);
+background: rgba(118, 139, 255, 0.08);
+backdrop-filter: blur(15px);
+box-shadow: 5px 5px 8px rgba(229, 233, 254, 0.04);
+padding-left: 60px;
+}
+
+.bg-blur header{
+width: 100%;
+height: 100px;
+padding-top: 50px;
+}
+
+.bg-blur nav{
+width: 100%;
+}
+
+.bg-blur .logo img{
+width: 10%;
+}
+
+.bg-blur section{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.bg-blur .welcome-text{
+width: 40%;
+}
+
+.welcome-text h1{
+font-size: 4.5rem;
+font-family: 'Righteous', cursive;
+}
+
+.welcome-text span{
+font-family: 'Reggae One', cursive;
+}
+
+.welcome-text h3{
+font-size: 1.5rem;
+font-family: 'Reggae One', cursive
+}
+
+.welcome-text .buttons{
+display: inline;
+}
+
+.welcome-text .buttons:hover .login{
+background: #039c97;
+}
+
+.welcome-text .buttons:hover .sign-up{
+background: #e20071;
+}
+
+.welcome-text .buttons button{
+width: 100px;
+font-size: 0.8rem;
+border: none;
+padding: 11px 0;
+margin-top: 20px;
+color: white;
+font-family: 'Righteous', cursive;
+}
+
+
+.welcome-text .login{
+background: #e20071;
+border-bottom-left-radius: 30px;
+border-top-left-radius: 30px;
+}
+
+
+.welcome-text .sign-up{
+background: #039c97;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
+}
+
+.welcome-gif{
+width: 40%;
+}
+
+.welcome-gif img{
+width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+
+.bg-blur{
+width: 95%;
+border-radius: 50px;
+}
+
+
+.bg-blur .logo img{
+width: 13%;
+}
+
+.welcome-text{
+padding-top: 6rem;
+}
+
+.welcome-text h1{
+font-size: 4rem;
+}
+
+.welcome-text h3{
+font-size: 1.3rem;
+}
+
+.welcome-gif{
+display: none;
+}
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+.home{
+background-size: 63%;
+background-position-x: 50%;
+background-position-y: 70%; 
+}
+
+.bg-blur{
+width: 97%;
+border-radius: 40px;
+box-shadow: none;
+border: none;
+backdrop-filter: blur(25px);
+}
+
+
+.bg-blur .logo img{
+width: 20%;
+}
+
+.bg-blur .welcome-text{
+width: 100%;
+padding-top: 8rem;
+}
+
+.welcome-text h1{
+font-size: 3.8rem;
+}
+
+.welcome-text h3{
+font-size: 1rem;
+}
+
+.welcome-text .buttons button{
+width: 90px;
+padding: 9px 0;
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+
+.home{
+background-size: 60%;
+background-position-x: 70%;
+background-position-y: 60%; 
+}
+
+.bg-blur{
+width: 100%;
+border-radius: 0;
+padding-left: 40px;
+backdrop-filter: blur(30px);
+background: rgba(0, 0, 0, 0.1);
+overflow: hidden;
+}
+
+
+.bg-blur .logo img{
+width: 25%;
+}
+  
+
+
+.bg-blur .welcome-text{
+width: 95%;
+}
+
+
+.welcome-text{
+padding-top: 10rem;
+}
+
+.welcome-text h1{
+font-size: 3.4rem;
+}
+
+.welcome-text h3{
+font-size: 1rem;
+padding-bottom: 20px;
+}
+
+
+.welcome-text .buttons button{
+width: 110px;
+padding: 12px 0;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+  
+.welcome-text h1{
+font-size: 3rem;
+}
+
+.welcome-text h3{
+font-size: 0.8rem;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+
+.bg-blur{
+padding-left: 20px;
+}  
+
+.welcome-text h1{
+font-size: 2.8rem;
+}
+
+.welcome-text h3{
+font-size: 0.8rem;
+}
+
+}

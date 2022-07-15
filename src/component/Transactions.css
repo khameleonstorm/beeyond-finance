@@ -1,0 +1,119 @@
+.transactions-container{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 50px 30px;
+margin-bottom: 80px;
+}
+
+.transactions-wrapper{
+min-width: 30%;
+background: transparent;
+background-size: 17%;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.transactions-wrapper .t-content{
+background: rgba(38, 38, 38, 0.15);
+backdrop-filter: blur(8px);
+border-radius: 15px;
+text-align: right;
+position: relative;
+overflow: hidden;
+padding: 20px;
+}
+
+.transactions-wrapper:nth-child(1){
+background-image: url(../assets/Subtract.svg);
+}
+
+.transactions-wrapper:nth-child(2){
+background-image: url(../assets/Subtract4.svg);
+}
+
+.transactions-wrapper:nth-child(3){
+background-image: url(../assets/Subtract2.svg);
+}
+
+.transactions-wrapper:nth-child(4){
+display: none;
+background-image: url(../assets/Subtract3.svg);
+}
+
+.transactions-wrapper h2{
+font-size: 1.2rem;
+font-weight: 700;
+padding-top: 15px;
+color: rgb(255, 255, 255);
+}
+
+.transactions-wrapper p{
+font-size: 0.9rem;
+color: rgba(255, 255, 255, 0.4);
+padding-top: 10px;
+}
+
+.transactions-wrapper .icon{
+position: absolute;
+top: -5px;
+right: 3px;
+font-family: cursive;
+opacity: 40%;
+}
+
+
+
+.transactions-wrapper .icon:hover{
+color: rgba(194, 29, 0, 0.803);
+cursor: pointer;
+opacity: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 900px){
+
+.transactions-container{
+grid-template-columns: 1fr 1fr;
+gap: 30px 30px;
+margin-bottom: 30px;
+}
+
+.transactions-wrapper{
+min-width: 45%;
+}
+
+.transactions-wrapper:nth-child(4){
+display: block;
+}
+  
+  
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+
+.transactions-container{
+grid-template-columns: 1fr 1fr;
+}
+
+.transactions-wrapper{
+min-width: 45%;
+}
+
+  
+}
+
+
+@media only screen and (max-width: 600px){
+
+.transactions-container{
+gap: 30px 20px;
+margin: 50px auto;
+}
+
+}

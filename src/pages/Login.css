@@ -1,0 +1,237 @@
+div.login{
+width: 100%;
+padding-left: 80px;
+height: 100vh;
+}
+.login header, nav{
+width: 100%;
+height: 100px;
+}
+
+.login .logo{
+padding-top: 30px;
+}
+
+.login .logo img{
+width: 10%;
+}
+
+.login section{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background: transparent;
+background-image: url(../assets/grouped-colors.png);
+background-size: 22%;
+background-repeat: no-repeat;
+background-position-y: 20%;
+background-position-x: 82%
+}
+
+.login .login-gif{
+width: 58%;
+}
+
+.login .login-gif img{
+width: 80%;
+}
+
+.login .form-container{
+width: 40%;
+background: transparent;
+padding: 10px 10px;
+}
+
+.login .form-wrapper{
+max-width: 280px;
+height: 500px;
+background: transparent;
+}
+
+.login form{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 50px 0px 20px 0px;
+background: rgba(255, 255, 255, 0.067);
+backdrop-filter: blur(18px);
+border-radius: 30px;
+border: 1px solid rgba(245, 245, 245, 0.08);
+color: white;
+}
+
+.login form h1{
+font-size: 2.5rem;
+font-family: 'Reggae One', cursive;
+padding-bottom: 20px;
+}
+
+.login form input{
+width: 85%;
+padding: 12px;
+border: none;
+border-radius: 40px;
+margin: 10px auto;
+background: rgba(242, 244, 255, 0.25);
+font-family: 'Reggae One', cursive;
+color: white;
+outline: none;
+}
+
+.login form button{
+width: 60%;
+padding: 9px;
+border: none;
+border-radius: 40px;
+margin: 20px auto;
+background: #2E5EF4;
+font-family: 'Reggae One', cursive;
+color: white;
+}
+
+.login form button:hover{
+cursor: pointer;
+background: #039c97;
+}
+
+.login form p{
+font-size: 0.8rem;
+color: rgba(240, 248, 255, 0.568);
+margin-top: 50px;
+}
+
+.login form p span{
+font-family: 'Reggae One', cursive;
+color: #e20071;
+font-size: 1.1rem;
+padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+div.login{
+padding-left: 40px;
+}  
+
+.login .logo img{
+width: 10%;
+}  
+
+.login .login-gif{
+width: 50%;
+}
+
+.login .login-gif img{
+width: 100%;
+}
+
+.login .form-container{
+width: 45%;
+}
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+.login section{
+background-size: 45%;
+background-position-y: 20%;
+background-position-x: 52%;
+}
+
+.login .logo img{
+width: 14%;
+}  
+
+.login .login-gif{
+display: none;
+}
+
+.login .form-container{
+width: 50%;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+div.login{
+padding-left: 20px;
+}
+
+.login section{
+background-size: 60%;
+background-position: center;
+}
+
+.login .form-container{
+width: 100%;
+}
+
+
+.login .form-wrapper{
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 80vh;
+}
+
+.login .logo img{
+width: 18%;
+}  
+
+}
+
+@media only screen and (max-width: 450px) {
+
+div.login{
+padding-left: 0px;
+}
+
+.login section{
+background-size: 75%;
+}
+
+.login .logo img{
+width: 22%;
+}  
+
+.login .logo{
+padding-left: 30px;
+}  
+
+}
+
+@media only screen and (max-width: 380px) {
+
+.login section{
+background-size: 77%;
+}
+}
+
+
+@media only screen and (max-width: 310px) {
+
+.login form{
+width: 95%;
+}
+
+.login form p span{
+font-size: 0.7rem;
+}
+
+.login section{
+background-size: 79%;
+}
+
+.login .logo img{
+width: 25%;
+}  
+
+}
